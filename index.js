@@ -1,10 +1,11 @@
 var express = require('express')
   , http = require('http')
-  , config = require('configuration');
+//  , config = require('configuration');
 
 var app = express();
-var server = app.listen(config.port);
-console.log("Express server listening on port "+ config.port);
+var server = app.listen(80);
+
+console.log("Express server listening on port "+ 80);
 
 app.get('/',index);
 
