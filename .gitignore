@@ -1,5 +1,4 @@
 #JS files to ignore
-configuration.js
 node_module/
 
 # Windows image file caches
