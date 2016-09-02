@@ -9,5 +9,5 @@ console.log("Express server listening on port "+ 80);
 app.get('/',index);
 
 function index(req,res){
-   res.send('Hello ' + config.say);
+   res.sendfile('index.html');
 }
