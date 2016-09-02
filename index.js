@@ -3,9 +3,9 @@ var express = require('express')
 //  , config = require('configuration');
 
 var app = express();
-var server = app.listen(80);
+var server = app.listen(3000);
 
-console.log("Express server listening on port "+ 80);
+console.log("Express server listening on port "+ 3000);
 
 app.get('/',index);
 
